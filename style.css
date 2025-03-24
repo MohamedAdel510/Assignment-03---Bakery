@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    /* background-color: orange   ;    */
+    /* background-attachment: fixed; */
+}
+
+.nav-logo {
+    float: left;
+    /* background-color: red; */
+    margin: 3px 300px 3px 150px;
+}
+.nav-logo img{
+    width: 50%;
+}
+
+.nav-menu{
+    float: left;
+    /* background-color: tomato; */
+    margin: 20px 0px 20px 0px;
+}
+
+.nav-item{
+    float: left;
+    margin: 0px 20px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    /* font-family: "Times New Roman", Times, serif; */
+    font-size: 18px;
+    color: black;
+}
+
+.clr{
+    clear: both;
+}
+
+.welcome-part{
+    /* background-color: gray; */
+    width: 100%;
+    height: 800px;
+    color:white;
+    background-image: url(./images/backaryBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: auto;
+}
+
+.welcome-contant{
+    /* background-color: orange; */
+    width: fit-content;
+    
+    margin-top: 300px;
+    margin-right: 275px;
+    margin-left: 275px;
+
+    text-align: center;
+
+    font-size: 32px;
+
+}
+
+.top-heading{
+    
+    margin-bottom: 5px;
+}
+.welcome-contant h1{
+    margin-bottom: 18px;
+}
+
+.subtitle{
+    margin: 10px 0px 30px;
+}
+
+.welcome-contant button{
+    background-color: transparent;
+    padding: 15px 28px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+.who-we-are{
+    /* background-color: orange; */
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.left-part{
+    float: left;
+    /* background-color: red; */
+    width: 50%;
+    text-align: center;
+
+}
+.left-part img{
+    width: 70%;
+}
+
+.right-part{
+    /* background-color: tomato; */
+    float: left;
+    width: 40%;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.right-part h2, .right-part p{
+    margin-bottom: 30px;
+}
+
+.icon-list{
+    list-style: none;
+    /* background-color: blue; */
+}
+
+.icon-list img{
+    width: 5%;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.icon-list p{
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.our-location{
+    background-color: #f8f8f8;
+    margin-bottom: 90px;
+}
+
+.our-location-left-part{
+    /* background-color: gray; */
+    float: left;
+    width: 50%;
+    
+}
+
+.our-location-left-part-content{
+    /* background-color: blue; */
+    width: 80%;
+    margin: 100px 100px;
+    font-size: 18px;
+}
+
+.our-location-left-part-content h2{
+    margin-bottom: 20px;
+}
+
+
+.our-location-rigth-part{
+    /* background-color: red; */
+    float: left;
+    text-align: center;
+    width: 50%;
+}
+
+.our-location-rigth-part img{
+    width: 70%;
+    margin: 50px 0px;
+}
+
+.our-baking{
+    /* background-color: orange; */
+    margin-bottom: 90px;
+}
+
+.title{
+    /* background-color: gray; */
+    text-align: center;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.title p{
+    margin: 20px 0px;
+}
+
+.title h2{
+    margin: 20px 0px;
+}
+
+.albom{
+    /* background-color: blue; */
+    margin-right: auto;
+    margin-left: auto;
+
+
+}
+
+.Baking-card{
+    /* background-color: red; */
+    float: left;
+    width: 30%;
+    text-align: center;
+    font-size: 18px;
+    margin: 0px 20px;
+}
+
+.Baking-card img{
+
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.Baking-card p, h3{
+    margin-bottom: 30px;
+}
+
+.wrpper{
+
+    /* background-color: aqua; */
+    padding: 0px 50px;
+   
+}
+
+.contact-information{
+    background-color: #f8f8f8;
+    margin-bottom: 90px;
+}
+
+.contact-information-left{
+    /* background-color: red; */
+    width: 40%;
+    margin-left: 100px;
+    display: inline-block;
+}
+
+.contact-information-left h2{
+    margin: 20px 0px;
+}
+
+.contact-information-left p{
+    margin-top: 20px;
+}
+.contact-information-left li{
+    margin-top: 20px;
+}
+
+.contact-details{
+    list-style: none;
+}
+
+.contact-details-item img{
+ width: 5%;
+ display: inline-block;
+}
+
+.contact-details-item p{
+    display: inline-block;
+    vertical-align: auto;
+}
+
+.contact-information-rigth{
+    /* background-color: aqua; */
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 50px ;
+}
+
+iframe{
+    width: 80%;
+    height: 300px;
+    border: 0;
+}
+
+.part1{
+    background-color: #403d38;
+    padding: 30px;
+    color: white;
+}
+
+.part1-about{
+    /* background-color: red; */
+    width: 30%;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.part1-about ul{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.part1-about ul li {
+     line-height: 40px;
+     border-bottom: solid 1px;
+     
+}
+.part1-about p{
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.part1-about ul li::before{
+    
+    content: ">";
+}
+
+
+.part2{
+    background-color: #353330;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+.logo2 {
+    margin: 50px 0px 30px;
+}
+
+.social-media img{
+    margin: 10px 5px;
+    width: 2%;
+}
